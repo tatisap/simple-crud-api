@@ -18,8 +18,8 @@ export class UserValidation {
     if (typeof username !== 'string') {
       throw new BadRequestError('Username had to be a string');
     }
-    if (typeof age !== 'number' && Number.isInteger(age)) {
-      throw new BadRequestError('Age had to be an integer');
+    if (typeof age !== 'number' || !Number.isInteger(age) || age < 1) {
+      throw new BadRequestError('Age had to be an positive integer');
     }
     if (!(Array.isArray(hobbies) && hobbies.every((hobby) => typeof hobby === 'string'))) {
       throw new BadRequestError('Hobbies had to be a string array');
