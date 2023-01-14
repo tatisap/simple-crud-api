@@ -1,0 +1,19 @@
+{
+  "name": "simple-crud-api",
+  "version": "1.0.0",
+  "description": "RSSchool assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tatisap/simple-crud-api.git"
+  },
+  "author": "Tatsiana Sapun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tatisap/simple-crud-api/issues"
+  },
+  "homepage": "https://github.com/tatisap/simple-crud-api#readme"
+}
