@@ -9,3 +9,5 @@ const server = http.createServer(App.listenRequest);
 const port = process.env.PORT;
 
 server.listen(port, () => console.log(`Server is running at ${port} port`));
+
+export { server };

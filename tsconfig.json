@@ -11,5 +11,5 @@
     "sourceMap": true,
     "resolveJsonModule": true
   },
-  "include": ["./src"]
+  "include": ["./src/**/*", "./test/**/*", "./jest.config.ts"]
 }
