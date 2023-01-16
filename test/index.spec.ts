@@ -1,5 +1,5 @@
 import request from 'supertest';
-import { server } from '../src';
+import { server } from '../src/server';
 import { User } from '../src/user/user.interface';
 
 let id: string | undefined;
